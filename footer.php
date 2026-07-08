@@ -12,9 +12,17 @@
 
 ?>
 
-<footer>
-	<div class="container">
-		<p>&copy; ২০২৪ Royal Natural Mixed Honey. সর্বস্বত্ব সংরক্ষিত।</p>
+<footer class="border-t border-[#d7a93b]/20 bg-[#0d0c0a] text-[#cfc4ad]">
+	<div class="mx-auto grid max-w-7xl gap-6 px-4 py-10 text-center sm:px-6 md:grid-cols-[1fr_auto] md:text-left lg:px-8">
+		<div>
+			<p class="text-xl font-black uppercase tracking-[0.18em] text-[#f0c75b]">Black Honey</p>
+			<p class="mt-3 max-w-xl text-sm leading-6">প্রিমিয়াম Korean Ginseng Black Honey। সারাদেশে ক্যাশ অন ডেলিভারি, প্রোডাক্ট হাতে পেয়ে পেমেন্ট করুন।</p>
+			<p class="mt-4 text-xs text-[#8f846d]">&copy; <?php echo esc_html(date('Y')); ?> Black Honey. সর্বস্বত্ব সংরক্ষিত।</p>
+		</div>
+		<div class="flex flex-col items-center gap-3 md:items-end">
+			<a class="rounded-full border border-[#d7a93b]/45 px-5 py-3 text-sm font-black text-[#ffe7a3] transition hover:bg-[#d7a93b] hover:text-[#15110a]" href="tel:01811546841">কল করুন: 01811546841</a>
+			<p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#d7a93b]">Cash on delivery</p>
+		</div>
 	</div>
 </footer>
 </div><!-- #page -->
@@ -67,6 +75,8 @@
 	// Get the close button inside the modal
 	var closeBtn = document.querySelector(".close-modal");
 
+	if (modal && thumbnail && youtubeVideo && closeBtn) {
+
 	// The video ID from the YouTube link
 	if(document.body.classList.contains("woocommerce-order-received")) {
 		var youtubeVideoID = "5fHzViaZ64A";
@@ -93,6 +103,7 @@
 			modal.style.display = "none";
 			youtubeVideo.src = ""; // Stop the video by clearing the iframe source
 		}
+	}
 	}
 </script>
 </body>

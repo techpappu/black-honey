@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kwangdong Premium | Korean Ginseng Black Honey</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Work+Sans:wght@400;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#690005",
+                        "on-secondary-container": "#482600",
+                        "surface-dim": "#131313",
+                        "on-tertiary-fixed": "#321200",
+                        "primary-fixed-dim": "#e9c349",
+                        "on-primary-container": "#554300",
+                        "on-secondary-fixed-variant": "#6a3b00",
+                        "on-primary-fixed-variant": "#574500",
+                        "background": "#131313",
+                        "on-surface-variant": "#d0c5af",
+                        "surface": "#131313",
+                        "surface-container-high": "#2a2a2a",
+                        "tertiary": "#ffc19e",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary": "#532200",
+                        "on-tertiary-container": "#723200",
+                        "outline-variant": "#4d4635",
+                        "primary-fixed": "#ffe088",
+                        "surface-tint": "#e9c349",
+                        "error-container": "#93000a",
+                        "error": "#ffb4ab",
+                        "primary-container": "#d4af37",
+                        "on-background": "#e5e2e1",
+                        "secondary-container": "#db8000",
+                        "surface-variant": "#353534",
+                        "outline": "#99907c",
+                        "tertiary-fixed": "#ffdbc9",
+                        "surface-container-low": "#1c1b1b",
+                        "tertiary-container": "#f89c64",
+                        "secondary-fixed-dim": "#ffb873",
+                        "on-primary-fixed": "#241a00",
+                        "tertiary-fixed-dim": "#ffb68c",
+                        "on-surface": "#e5e2e1",
+                        "inverse-surface": "#e5e2e1",
+                        "on-tertiary-fixed-variant": "#753401",
+                        "secondary": "#ffb873",
+                        "on-primary": "#3c2f00",
+                        "on-secondary-fixed": "#2d1600",
+                        "surface-container-lowest": "#0e0e0e",
+                        "primary": "#f2ca50",
+                        "surface-container-highest": "#353534",
+                        "surface-bright": "#393939",
+                        "inverse-on-surface": "#313030",
+                        "surface-container": "#201f1f",
+                        "on-secondary": "#4a2800",
+                        "inverse-primary": "#735c00",
+                        "secondary-fixed": "#ffdcbf"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "section-gap": "80px",
+                        "stack-lg": "32px",
+                        "container-max": "1200px",
+                        "section-gap-mobile": "48px",
+                        "gutter": "24px",
+                        "stack-sm": "8px",
+                        "stack-md": "16px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Work Sans"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "label-bold": ["Work Sans"],
+                        "display-lg": ["Playfair Display"],
+                        "body-lg": ["Work Sans"],
+                        "price-display": ["Work Sans"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-lg": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "label-bold": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "price-display": ["32px", { "lineHeight": "1", "fontWeight": "700" }],
+                        "headline-md": ["28px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "headline-lg": ["40px", { "lineHeight": "1.2", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .honey-sheen {
+            box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.3), 0 4px 15px rgba(242, 146, 29, 0.4);
+        }
+
+        .premium-card {
+            background: #1E1E1E;
+            border: 1px solid rgba(212, 175, 55, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .premium-card:hover {
+            border-color: rgba(212, 175, 55, 0.4);
+            transform: translateY(-4px);
+        }
+
+        .gold-glow {
+            text-shadow: 0 0 10px rgba(242, 202, 80, 0.5);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .testimonial-carousel {
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+        }
+
+        .testimonial-item {
+            scroll-snap-align: start;
+        }
+    </style>
+</head>
+
+<body class="bg-background text-on-background font-body-md selection:bg-primary selection:text-on-primary">
+    <!-- TopAppBar -->
+    <nav class="fixed top-0 z-50 w-full bg-background/90 backdrop-blur-md border-b border-outline-variant/20 shadow-md">
+        <div class="flex justify-between items-center w-full px-gutter py-4 max-w-container-max mx-auto">
+            <a class="font-headline-md text-headline-md font-bold text-primary" href="#">Kwangdong Premium</a>
+            <div class="hidden md:flex gap-8 items-center">
+                <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300"
+                    href="#benefits">Benefits</a>
+                <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300"
+                    href="#details">Quality</a>
+                <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300"
+                    href="#reviews">Reviews</a>
+                <a class="bg-primary-container text-on-primary-container font-label-bold text-label-bold px-6 py-2 rounded-full honey-sheen hover:scale-105 active:scale-95 transition-transform uppercase"
+                    href="#checkout">ORDER NOW</a>
+            </div>
+            <button class="md:hidden text-primary">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img class="w-full h-full object-cover opacity-60"
+                    data-alt="A cinematic, high-resolution product shot of Kwangdong Premium Korean Ginseng Black Honey. The scene is set in a misty mountain landscape at dawn, with soft golden sunlight illuminating the product box and sticks resting on a rugged, dark stone surface. The lighting is dramatic and luxurious, emphasizing the premium quality of the Korean red ginseng roots lying beside the packaging."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5Md8I7C-GClBruEIjjl_nMAOx_K_RtKIkOrRDxytvqYxCwC9096_Et4K-t0Wn29UV5cYroy1v6EKXCbTQxbwew4RMzusl7DxZxbFl9vtkzlaY3aBWxB_a89ammS20ddMjfQujAVNEUAiCBbXrANNuPy5botBGEqyN6qRok_GokTe6ysXDt_DaM9XBa0UnkrHPPmRonGYlJBNXX2vRMdyw4yQesTXGFo4CCAu9fo3j7t9qk9QUD2HZ93-hkKfRtZ_575grT0NxEG4" />
+                <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50"></div>
+            </div>
+            <div
+                class="relative z-10 max-w-container-max mx-auto px-gutter grid lg:grid-cols-2 gap-stack-lg items-center">
+                <div class="space-y-stack-md">
+                    <span
+                        class="inline-block px-4 py-1 rounded-full border border-primary/30 text-primary font-label-bold text-label-bold bg-primary/10 backdrop-blur-sm">PREMIUM
+                        HEALTH SOLUTION</span>
+                    <h1 class="font-display-lg text-display-lg text-primary gold-glow leading-tight">Nature's Power for
+                        Your Daily Life</h1>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                        Experience the premium blend of 1-year-old Korean Ginseng and rich Black Honey. Crafted using
+                        ancient wisdom and modern standards for peak vitality.
+                    </p>
+                    <div class="pt-stack-md">
+                        <a class="inline-block bg-secondary-container hover:bg-primary text-black font-bold px-10 py-4 rounded-full honey-sheen transition-all text-xl uppercase tracking-wider scale-100 hover:scale-105 active:scale-95"
+                            href="#checkout">
+                            ORDER NOW
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Benefits Section -->
+        <section class="py-section-gap max-w-container-max mx-auto px-gutter" id="benefits">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-lg text-headline-lg text-primary mb-4">Why Choose Kwangdong?</h2>
+                <div class="w-24 h-1 bg-primary mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-stack-lg">
+                <!-- Benefit 1 -->
+                <div class="premium-card p-8 rounded-xl flex flex-col items-center text-center group">
+                    <div
+                        class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-primary text-4xl"
+                            style="font-variation-settings: 'FILL' 1;">bolt</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Deep, Lasting Energy</h3>
+                    <p class="text-on-surface-variant">Sustained vitality throughout your day without the crash. Pure
+                        energy derived from authentic 1-year-old Korean roots.</p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="premium-card p-8 rounded-xl flex flex-col items-center text-center group">
+                    <div
+                        class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-primary text-4xl"
+                            style="font-variation-settings: 'FILL' 1;">money</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Rich Black Honey</h3>
+                    <p class="text-on-surface-variant">Naturally rich sweetness paired with potent medicinal properties.
+                        A luxurious taste profile that makes health a daily treat.</p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="premium-card p-8 rounded-xl flex flex-col items-center text-center group">
+                    <div
+                        class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-primary text-4xl"
+                            style="font-variation-settings: 'FILL' 1;">verified_user</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-on-surface mb-4">Immune &amp; Energy</h3>
+                    <p class="text-on-surface-variant">A healthy habit designed for busy modern lifestyles. Fortify your
+                        immune system while fueling your daily performance.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Product Details -->
+        <section class="py-section-gap bg-surface-container-lowest" id="details">
+            <div class="max-w-container-max mx-auto px-gutter grid lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <img alt="KOREAN GINSENG Black Honey poster"
+                        class="rounded-2xl shadow-2xl relative z-10 border border-primary/10"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNmUy3Y0jhby36gNDRM7sNJ_zJQRdUIxDJb8niaUmmwo05JqUBSWwkz-qqbFR47kDqvbBpYabfkGuM98EEmSBnBA3EnoYtdqvdugbXNFZlzqa4jUxZ3fcWQnEb9PxqEfqYcti9p8Hff-mgCwEQ-I53xykdglLFJzsJl30QwJPxkRKNLZVWFnycbD0oDYLJ148C-GlB9NDm5wZrLFiwWIVfmv59tOsIfnxQ8potccpP70JSCpgI09ve078sg0Lvj1CynsrP0EA7OR4" />
+                    <div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl"></div>
+                </div>
+                <div class="space-y-stack-md">
+                    <h2 class="font-headline-lg text-headline-lg text-primary">The 'One Stick a Day' Ritual</h2>
+                    <p class="text-body-lg text-on-surface-variant">
+                        Our meticulously designed stick packs are perfect for on-the-go wellness. Each sachet contains
+                        the precise concentration of Korean Red Ginseng and Black Honey needed to revitalize your
+                        system.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-4">
+                            <span class="material-symbols-outlined text-primary">check_circle</span>
+                            <span class="font-body-md text-on-surface">Premium 1-Year Old Korean Ginseng</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <span class="material-symbols-outlined text-primary">check_circle</span>
+                            <span class="font-body-md text-on-surface">Naturally Rich Black Honey Base</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <span class="material-symbols-outlined text-primary">check_circle</span>
+                            <span class="font-body-md text-on-surface">No Artificial Preservatives or Additives</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <span class="material-symbols-outlined text-primary">check_circle</span>
+                            <span class="font-body-md text-on-surface">Convenient Daily Stick Packaging</span>
+                        </li>
+                    </ul>
+                    <div class="pt-8 flex gap-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary">100%</div>
+                            <div class="text-sm text-on-surface-variant uppercase tracking-widest">Natural</div>
+                        </div>
+                        <div class="text-center border-l border-outline-variant px-8">
+                            <div class="text-3xl font-bold text-primary">KFDA</div>
+                            <div class="text-sm text-on-surface-variant uppercase tracking-widest">Certified</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Certification Section -->
+        <section class="py-section-gap max-w-container-max mx-auto px-gutter">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-lg text-headline-lg text-primary uppercase">Our Certification</h2>
+                <p class="text-on-surface-variant mt-2">Quality you can trust, backed by international standards.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-stack-lg">
+                <div class="premium-card p-12 rounded-2xl">
+                    <div
+                        class="aspect-[4/5] bg-white/5 rounded-lg flex items-center justify-center mb-8 border border-white/10 p-10">
+                        <img class="max-w-full max-h-full object-contain filter grayscale invert opacity-80"
+                            data-alt="A formal FDA Certification document displayed against a dark background. The document is professional, featuring official seals, structured text, and a clean layout typical of international health certificates. The lighting highlights the authenticity of the paperwork."
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrLP4flOQ74w5lgIxXA0qwBuDbvhu9dM-81gUEflSpe3eCATq6u93c0QpdvHXJAwpnYerQCZU2WNlwLEom80ALHqEUUM8Bz3enp1FTvsoEWr8snq4oLYlzKFm6TgJrTEJilVvvzk4g1xS9UnstrH1y3jvt3lmpIYfejb88nP96gquyMrcyFth8F0LXGpbDGZB0-pZFrFxlgkuyZaXDwqztAJWN-LPYeHFF4G8A0mgeSOwj3ejEhKL1Oe1HDclaAQ__47KChziv-pY" />
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-2">FDA Certification</h3>
+                    <p class="text-on-surface-variant text-sm">Meets all Food &amp; Drug Administration safety and
+                        quality benchmarks for premium herbal supplements.</p>
+                </div>
+                <div class="premium-card p-12 rounded-2xl">
+                    <div
+                        class="aspect-[4/5] bg-white/5 rounded-lg flex items-center justify-center mb-8 border border-white/10 p-10">
+                        <img class="max-w-full max-h-full object-contain filter grayscale invert opacity-80"
+                            data-alt="A professional Material Safety Data Sheet (MSDS) displayed prominently. The document shows technical details and safety specifications for food products, presented in a clean, high-contrast dark-mode friendly way. It includes logos and formal verification stamps."
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOfYmicOWXgPRzZKguRz1LisaHoZKD5ExjLstYHCBMyNwxCRLgWrj9uEMCru02fGE-fRgiRcJRpUCf2tPRcPZHXffg7BtOaexhDhP_7ocnKBlHcanZ5kavaR_0BGuUpZL94-hL8MrtsUyftWlwlGKNQgdrwQJzyDNf9jFKEi_xwo8YF7VQIi0ohVg_Pm_oqd9JF8yBWj9zNXxawWcz_jNS4Er18mYGPqbelo7i7s5kPOhmNg9X5ReKPwV47b-qzOs3dW8gfohooAY" />
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-2">MSDS Certification</h3>
+                    <p class="text-on-surface-variant text-sm">International standard safety verification, ensuring pure
+                        and contaminant-free premium ingredients.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section -->
+        <section class="py-section-gap bg-surface-container-low overflow-hidden" id="reviews">
+            <div class="max-w-container-max mx-auto px-gutter relative">
+                <h2 class="font-headline-lg text-headline-lg text-primary text-center mb-16">Happy Customers</h2>
+                <div class="relative group">
+                    <!-- Navigation Buttons -->
+                    <button
+                        class="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 lg:-ml-12 z-20 w-12 h-12 rounded-full bg-primary text-black flex items-center justify-center shadow-lg hover:scale-110 active:scale-95 transition-transform duration-200"
+                        id="prevBtn">
+                        <span class="material-symbols-outlined">chevron_left</span>
+                    </button>
+                    <button
+                        class="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 lg:-mr-12 z-20 w-12 h-12 rounded-full bg-primary text-black flex items-center justify-center shadow-lg hover:scale-110 active:scale-95 transition-transform duration-200"
+                        id="nextBtn">
+                        <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                    <!-- Carousel Container -->
+                    <div class="testimonial-carousel flex gap-stack-md overflow-x-auto no-scrollbar snap-x snap-mandatory pb-8"
+                        id="testimonial-carousel">
+                        <!-- Testimonial 1 -->
+                        <div
+                            class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
+                            <div class="premium-card p-8 rounded-2xl h-full flex flex-col">
+                                <div class="flex gap-1 text-primary mb-4">
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                </div>
+                                <p class="italic text-on-surface mb-6 flex-grow">"Since I started taking one stick every
+                                    morning, my productivity has skyrocketed. No mid-day slump anymore!"</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                                        RH</div>
+                                    <div>
+                                        <div class="font-bold text-on-surface">Rahim H.</div>
+                                        <div class="text-xs text-primary">Dhaka, Bangladesh</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2 -->
+                        <div
+                            class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
+                            <div class="premium-card p-8 rounded-2xl h-full flex flex-col">
+                                <div class="flex gap-1 text-primary mb-4">
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                </div>
+                                <p class="italic text-on-surface mb-6 flex-grow">"The taste of black honey is
+                                    incredible. It masks the ginseng bitterness perfectly while giving it a premium
+                                    feel."</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                                        IK</div>
+                                    <div>
+                                        <div class="font-bold text-on-surface">Imran K.</div>
+                                        <div class="text-xs text-primary">Chittagong, BD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 3 -->
+                        <div
+                            class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
+                            <div class="premium-card p-8 rounded-2xl h-full flex flex-col">
+                                <div class="flex gap-1 text-primary mb-4">
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                </div>
+                                <p class="italic text-on-surface mb-6 flex-grow">"Fast shipping and amazing quality. You
+                                    can tell this is authentic Korean ginseng from the very first drop."</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                                        HM</div>
+                                    <div>
+                                        <div class="font-bold text-on-surface">Hasan M.</div>
+                                        <div class="text-xs text-primary">Sylhet, BD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 4 -->
+                        <div
+                            class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
+                            <div class="premium-card p-8 rounded-2xl h-full flex flex-col">
+                                <div class="flex gap-1 text-primary mb-4">
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                </div>
+                                <p class="italic text-on-surface mb-6 flex-grow">"I gift this to my parents every month.
+                                    They feel much more active and their immune system seems stronger."</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                                        SA</div>
+                                    <div>
+                                        <div class="font-bold text-on-surface">Sara A.</div>
+                                        <div class="text-xs text-primary">Uttara, Dhaka</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 5 -->
+                        <div
+                            class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
+                            <div class="premium-card p-8 rounded-2xl h-full flex flex-col">
+                                <div class="flex gap-1 text-primary mb-4">
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                </div>
+                                <p class="italic text-on-surface mb-6 flex-grow">"The convenient sticks are perfect for
+                                    my busy office schedule. Truly a premium health product."</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                                        TA</div>
+                                    <div>
+                                        <div class="font-bold text-on-surface">Tanvir A.</div>
+                                        <div class="text-xs text-primary">Gulshan, Dhaka</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 6 -->
+                        <div
+                            class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
+                            <div class="premium-card p-8 rounded-2xl h-full flex flex-col">
+                                <div class="flex gap-1 text-primary mb-4">
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                    <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                </div>
+                                <p class="italic text-on-surface mb-6 flex-grow">"Highly recommended for anyone looking
+                                    for a natural energy boost. The packaging itself is so elegant."</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">
+                                        NA</div>
+                                    <div>
+                                        <div class="font-bold text-on-surface">Nabila A.</div>
+                                        <div class="text-xs text-primary">Banani, Dhaka</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dot Indicators -->
+                    <div class="flex justify-center gap-2 mt-4" id="dot-indicators">
+                        <!-- Dots will be generated via script or can be hardcoded -->
+                        <div class="w-2.5 h-2.5 rounded-full bg-primary transition-all duration-300"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-primary/30 transition-all duration-300"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-primary/30 transition-all duration-300"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-primary/30 transition-all duration-300"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Package Selection & Checkout -->
+        <section class="py-section-gap max-w-container-max mx-auto px-gutter" id="checkout">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Package Selection -->
+                <div>
+                    <h2 class="font-headline-lg text-headline-lg text-primary mb-8">Select Your Package</h2>
+                    <div class="space-y-4">
+                        <!-- Option 1 -->
+                        <label
+                            class="premium-card p-6 rounded-xl flex items-center gap-6 cursor-pointer border-2 border-transparent hover:border-primary/50 transition-all has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                            <input checked=""
+                                class="w-6 h-6 text-primary focus:ring-primary bg-background border-outline"
+                                name="package" type="radio" />
+                            <div class="flex-grow">
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-xl">20 Sticks (Best Value)</span>
+                                    <span class="text-primary font-bold text-xl">$149.00</span>
+                                </div>
+                                <span class="text-primary/70 text-sm">Saves 25% + Free Shipping</span>
+                            </div>
+                            <span
+                                class="bg-primary text-black text-[10px] font-black px-2 py-1 rounded uppercase">POPULAR</span>
+                        </label>
+                        <!-- Option 2 -->
+                        <label
+                            class="premium-card p-6 rounded-xl flex items-center gap-6 cursor-pointer border-2 border-transparent hover:border-primary/50 transition-all has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                            <input class="w-6 h-6 text-primary focus:ring-primary bg-background border-outline"
+                                name="package" type="radio" />
+                            <div class="flex-grow">
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-xl">10 Sticks (Standard)</span>
+                                    <span class="text-on-surface font-bold text-xl">$89.00</span>
+                                </div>
+                                <span class="text-on-surface-variant text-sm">Perfect for beginners</span>
+                            </div>
+                        </label>
+                        <!-- Option 3 -->
+                        <label
+                            class="premium-card p-6 rounded-xl flex items-center gap-6 cursor-pointer border-2 border-transparent hover:border-primary/50 transition-all has-[:checked]:border-primary has-[:checked]:bg-primary/5">
+                            <input class="w-6 h-6 text-primary focus:ring-primary bg-background border-outline"
+                                name="package" type="radio" />
+                            <div class="flex-grow">
+                                <div class="flex justify-between items-center">
+                                    <span class="font-bold text-xl">5 Sticks (Trial)</span>
+                                    <span class="text-on-surface font-bold text-xl">$49.00</span>
+                                </div>
+                                <span class="text-on-surface-variant text-sm">Weekly energy boost</span>
+                            </div>
+                        </label>
+                    </div>
+                    <!-- Order Summary -->
+                    <div class="mt-12 p-8 bg-surface-container-high rounded-2xl border border-outline-variant/30">
+                        <h3 class="font-bold text-xl mb-6 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-primary">shopping_cart</span>
+                            Order Summary
+                        </h3>
+                        <div class="space-y-4">
+                            <div class="flex justify-between text-on-surface-variant">
+                                <span>20 Stick Premium Pack</span>
+                                <span>$149.00</span>
+                            </div>
+                            <div class="flex justify-between text-on-surface-variant">
+                                <span>Shipping &amp; Handling</span>
+                                <span class="text-primary font-bold">FREE</span>
+                            </div>
+                            <div class="h-px bg-outline-variant/50 my-4"></div>
+                            <div class="flex justify-between text-2xl font-bold">
+                                <span>Total Amount</span>
+                                <span class="text-primary">$149.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Checkout Form -->
+                <div class="bg-surface-container-low p-10 rounded-2xl border border-outline-variant/20 shadow-2xl">
+                    <h2 class="font-headline-md text-headline-md text-on-surface mb-8">Shipping Information</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block font-label-bold text-label-bold text-on-surface-variant mb-2">Full
+                                Name</label>
+                            <input
+                                class="w-full bg-background border-outline-variant text-on-surface focus:border-primary focus:ring-1 focus:ring-primary rounded-lg p-4"
+                                placeholder="John Doe" type="text" />
+                        </div>
+                        <div>
+                            <label class="block font-label-bold text-label-bold text-on-surface-variant mb-2">Mobile
+                                Number</label>
+                            <input
+                                class="w-full bg-background border-outline-variant text-on-surface focus:border-primary focus:ring-1 focus:ring-primary rounded-lg p-4"
+                                placeholder="+880 1XXX-XXXXXX" type="tel" />
+                        </div>
+                        <div>
+                            <label class="block font-label-bold text-label-bold text-on-surface-variant mb-2">Full
+                                Address</label>
+                            <textarea
+                                class="w-full bg-background border-outline-variant text-on-surface focus:border-primary focus:ring-1 focus:ring-primary rounded-lg p-4"
+                                placeholder="Enter your detailed shipping address..." rows="3"></textarea>
+                        </div>
+                        <div class="pt-4">
+                            <div
+                                class="flex items-center gap-3 mb-6 p-4 bg-primary/5 rounded-lg border border-primary/20">
+                                <span class="material-symbols-outlined text-primary">local_shipping</span>
+                                <p class="text-sm text-on-surface-variant">Estimated Delivery: 2-3 Business Days. Cash
+                                    on Delivery available.</p>
+                            </div>
+                            <button
+                                class="w-full bg-secondary-container hover:bg-primary text-black font-extrabold py-5 rounded-xl honey-sheen transition-all text-xl uppercase tracking-widest flex items-center justify-center gap-3 shadow-lg active:scale-95"
+                                type="submit">
+                                <span class="material-symbols-outlined">lock</span>
+                                CONFIRM ORDER
+                            </button>
+                            <p class="text-center text-xs text-on-surface-variant mt-6">
+                                Your payment information is encrypted and secure. By placing an order, you agree to our
+                                Terms and Conditions.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest border-t border-outline-variant/10 py-12">
+        <div class="flex flex-col items-center gap-stack-lg max-w-container-max mx-auto px-gutter">
+            <div class="font-headline-md text-headline-md text-primary font-bold">Kwangdong Premium</div>
+            <div class="flex gap-8 flex-wrap justify-center">
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-secondary transition-colors"
+                    href="#">Privacy Policy</a>
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-secondary transition-colors"
+                    href="#">Terms of Service</a>
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-secondary transition-colors"
+                    href="#">Shipping Info</a>
+                <a class="text-on-surface-variant font-label-bold text-label-bold hover:text-secondary transition-colors"
+                    href="#">Contact Us</a>
+            </div>
+            <div class="flex gap-4">
+                <a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
+                    href="#">
+                    <span class="material-symbols-outlined">share</span>
+                </a>
+                <a class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors"
+                    href="#">
+                    <span class="material-symbols-outlined">mail</span>
+                </a>
+            </div>
+            <p class="text-on-surface-variant font-body-md text-body-md opacity-60">© 2024 Kwangdong Premium Ginseng.
+                All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Package selection sync
+        const radioButtons = document.querySelectorAll('input[name="package"]');
+        radioButtons.forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                console.log('Selected package changed');
+            });
+        });
+
+        // Testimonial Carousel Script
+        const carousel = document.getElementById('testimonial-carousel');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const dotsContainer = document.getElementById('dot-indicators');
+
+        const updateDots = () => {
+            const items = document.querySelectorAll('.testimonial-item');
+            const scrollLeft = carousel.scrollLeft;
+            const width = carousel.offsetWidth;
+            const activeIndex = Math.round(scrollLeft / width);
+
+            const dots = dotsContainer.querySelectorAll('div');
+            dots.forEach((dot, index) => {
+                if (index === activeIndex) {
+                    dot.classList.remove('bg-primary/30');
+                    dot.classList.add('bg-primary', 'w-6');
+                } else {
+                    dot.classList.remove('bg-primary', 'w-6');
+                    dot.classList.add('bg-primary/30');
+                }
+            });
+        };
+
+        // Calculate how many slides for dots (responsive)
+        const setupDots = () => {
+            const items = document.querySelectorAll('.testimonial-item');
+            const itemWidth = items[0].offsetWidth + 16; // width + gap
+            const visibleItems = Math.round(carousel.offsetWidth / items[0].offsetWidth);
+            const totalPages = Math.ceil(items.length / visibleItems);
+
+            dotsContainer.innerHTML = '';
+            for (let i = 0; i < totalPages; i++) {
+                const dot = document.createElement('div');
+                dot.className = `w-2.5 h-2.5 rounded-full bg-primary/30 transition-all duration-300 cursor-pointer hover:bg-primary/60`;
+                dot.addEventListener('click', () => {
+                    carousel.scrollTo({
+                        left: i * carousel.offsetWidth,
+                        behavior: 'smooth'
+                    });
+                });
+                dotsContainer.appendChild(dot);
+            }
+            updateDots();
+        };
+
+        nextBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: carousel.offsetWidth, behavior: 'smooth' });
+        });
+
+        prevBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: -carousel.offsetWidth, behavior: 'smooth' });
+        });
+
+        carousel.addEventListener('scroll', updateDots);
+        window.addEventListener('resize', setupDots);
+
+        // Initial Setup
+        setTimeout(setupDots, 100);
+    </script>
+</body>
+
+</html>
