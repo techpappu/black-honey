@@ -143,24 +143,24 @@ add_action('widgets_init', 'fastest_widgets_init');
  */
 function fastest_scripts()
 {
-        wp_enqueue_style('fastest-style', get_stylesheet_uri(), array(), _S_VERSION);
-        wp_style_add_data('fastest-style', 'rtl', 'replace');
+	wp_enqueue_style('fastest-style', get_stylesheet_uri(), array(), _S_VERSION);
+	wp_style_add_data('fastest-style', 'rtl', 'replace');
 
-        if (is_singular()) {
-                global $post;
+	if (is_singular()) {
+		global $post;
 
-                if (is_page_template('template-funnel-main.php')) {
-                        wp_enqueue_script('tailwind-cdn', 'https://cdn.tailwindcss.com', array(), null, false);
-                        wp_enqueue_style('google-fonts-playfair-work-sans', 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;600;700&display=swap', array(), null);
-                        wp_enqueue_style('material-symbols-outlined', 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap', array(), null);
-                }
+		if (is_page_template('template-funnel-main.php')) {
+			wp_enqueue_style('tailwind-local', get_template_directory_uri() . '/assets/css/output.css', array(), null, false);
+			wp_enqueue_style('google-fonts-playfair-work-sans', 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;600;700&display=swap', array(), null);
+			wp_enqueue_style('material-symbols-outlined', 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap', array(), null);
+		}
 
-                if (is_a($post, 'WP_Post') && has_shortcode($post->post_content, 'cartflow-custom')) {
-                        wp_enqueue_style('fastest-checkout', get_template_directory_uri() . '/checkout.css', array('fastest-style'), _S_VERSION);
-                }
-        }
+		if (is_a($post, 'WP_Post') && has_shortcode($post->post_content, 'cartflow-custom')) {
+			wp_enqueue_style('fastest-checkout', get_template_directory_uri() . '/checkout.css', array('fastest-style'), _S_VERSION);
+		}
+	}
 
-        wp_enqueue_script('fastest-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);
+	wp_enqueue_script('fastest-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');
@@ -390,10 +390,10 @@ add_shortcode('cartflow-custom', function ($atts) {
 	<div class="order-form" data-default="<?php echo esc_attr($default_id); ?>">
 
 		<h2 class="form-title">আপনার পছন্দের প্যাকেজটি সিলেক্ট করুন</h2>
-                <p class="checkout-saving-note" role="alert">
-                        <span aria-hidden="true">🔥</span>
-                        <span>বেশি সাশ্রয় ও দীর্ঘমেয়াদী ব্যবহারের জন্য বড় প্যাকেজ বেছে নিন</span>
-                </p>
+		<p class="checkout-saving-note" role="alert">
+			<span aria-hidden="true">🔥</span>
+			<span>বেশি সাশ্রয় ও দীর্ঘমেয়াদী ব্যবহারের জন্য বড় প্যাকেজ বেছে নিন</span>
+		</p>
 
 		<div class="checkout-wrapper">
 			<div class="checkout-product-selector">
