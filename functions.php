@@ -150,7 +150,9 @@ function fastest_scripts()
 		global $post;
 
 		if (is_page_template('template-funnel-main.php')) {
-			wp_enqueue_style('tailwind-local', get_template_directory_uri() . '/assets/css/output.css', array(), null, false);
+			$tailwind_css_path = get_template_directory() . '/assets/css/output.css';
+			$tailwind_css_version = file_exists($tailwind_css_path) ? filemtime($tailwind_css_path) : _S_VERSION;
+			wp_enqueue_style('tailwind-local', get_template_directory_uri() . '/assets/css/output.css', array('fastest-style'), $tailwind_css_version);
 			wp_enqueue_style('google-fonts-playfair-work-sans', 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;600;700&display=swap', array(), null);
 			wp_enqueue_style('material-symbols-outlined', 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap', array(), null);
 		}

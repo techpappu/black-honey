@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+@source "../../template-funnel-main.php";
+@source "../../functions.php";
