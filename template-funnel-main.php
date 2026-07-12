@@ -37,6 +37,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
             <div class="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,17,16,0.94)_0%,rgba(18,17,16,0.74)_42%,rgba(18,17,16,0.24)_100%)]"></div>
         </div>
 
+
         <div class="relative z-10 mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
             <div class="space-y-6">
                 <span class="inline-block rounded-full border border-[#d7a93b]/30 bg-[#d7a93b]/10 px-4 py-1 text-xs font-black uppercase tracking-[0.22em] text-[#f0c75b] backdrop-blur-sm">Premium Health Solution</span>
@@ -351,7 +352,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
         document.addEventListener('DOMContentLoaded', () => {
             const carousel = document.getElementById('testimonial-carousel');
             const dotsContainer = document.getElementById('dot-indicators');
-            
+
             if (!carousel || !dotsContainer) return;
 
             const updateDots = () => {
