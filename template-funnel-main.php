@@ -176,7 +176,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"Since I started taking one stick every morning, my productivity has skyrocketed. No mid-day slump anymore!"</p>
+                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"প্রতিদিন সকালে একটি করে স্টিক খাওয়া শুরু করার পর থেকে আমার কর্মক্ষমতা বা প্রোডাক্টিভিটি বহুগুণ বেড়ে গেছে। দুপুরে এখন আর কোনো ক্লান্তি বা অলসতা আসে না!"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
@@ -206,7 +206,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"The taste of black honey is incredible. It masks the ginseng bitterness perfectly while giving it a premium feel."</p>
+                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"ব্ল্যাক হানিবাল বা কালো মধুর স্বাদ সত্যিই অসাধারণ। এটি জিনসেং-এর তেতো ভাবটা একদম নিখুঁতভাবে দূর করে এবং একই সাথে একটি প্রিমিয়াম অনুভূতি দেয়।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
@@ -236,7 +236,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"Fast shipping and amazing quality. You can tell this is authentic Korean ginseng from the very first drop."</p>
+                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"খুব দ্রুত ডেলিভারি পেয়েছি এবং কোয়ালিটিও অসাধারণ। এর প্রথম ড্রপ বা ফোঁটা থেকেই বোঝা যায় যে এটি একদম খাঁটি কোরিয়ান জিনসেং।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
@@ -266,7 +266,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"I gift this to my parents every month. They feel much more active and their immune system seems stronger."</p>
+                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"আমি প্রতি মাসে এটি নিজে খাই। এখন নিজেকে অনেক বেশি সচল ও এনার্জেটিক অনুভব করি এবং আমার রোগ প্রতিরোধ ক্ষমতাও আগের চেয়ে শক্তিশালী মনে হয়।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
@@ -296,7 +296,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"The convenient sticks are perfect for my busy office schedule. Truly a premium health product."</p>
+                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"অফিসের ব্যস্ত লাইফস্টাইলের জন্য এই রেডি-টু-ইউজ স্টিকগুলো অত্যন্ত উপযোগী। স্বাস্থ্য সুরক্ষায় এটি সত্যিই একটি প্রিমিয়াম পণ্য।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
@@ -326,7 +326,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"Highly recommended for anyone looking for a natural energy boost. The packaging itself is so elegant."</p>
+                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"প্রাকৃতিক উপায়ে শরীরে এনার্জি বুস্ট করার জন্য এটি একটি অসাধারণ সমাধান। এর প্রিমিয়াম প্যাকেজিং সত্যিই নজরকাড়া।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
