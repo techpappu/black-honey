@@ -73,6 +73,9 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                 <p class="leading-7 text-[#d0c5af]">অগ্রিম টাকা লাগবে না। প্রোডাক্ট হাতে পেয়ে তারপর পেমেন্ট করুন।</p>
             </div>
         </div>
+        <div class="pt-4 text-center">
+            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
+        </div>
     </section>
 
     <section id="details" class="bg-[#0e0e0e] py-16 lg:py-24">
@@ -137,6 +140,9 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                 <h3 class="mb-2 text-xl font-black text-[#f0c75b]">Authentic Product View</h3>
                 <p class="text-sm leading-6 text-[#d0c5af]">অর্ডারের আগে প্রোডাক্ট প্যাকেজিং, বক্স ও স্টিক ভিজ্যুয়াল দেখে সিদ্ধান্ত নিন।</p>
             </div>
+        </div>
+        <div class="pt-4 text-center">
+            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
         </div>
     </section>
 
@@ -346,6 +352,9 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                 </div>
             </div>
         </div>
+        <div class="pt-4 text-center">
+            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
+        </div>
     </section>
 
     <script>
@@ -425,6 +434,9 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                     <p class="mt-2 leading-7 text-[#cfc4ad]">১০ পিসের প্যাকটি একটি ফুল কোর্স হিসেবে ব্যবহার করা যায়।</p>
                 </div>
             </div>
+        </div>
+        <div class="pt-4 text-center">
+            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
         </div>
     </section>
 
