@@ -245,7 +245,7 @@ add_filter('woocommerce_checkout_fields', function ($fields) {
 
 	/* Address field */
 	$fields['billing']['billing_address_1']['label']       = 'ঠিকানা';
-	$fields['billing']['billing_address_1']['placeholder'] = 'থানা: রামপুর, জেলা: ঢাকা';
+	$fields['billing']['billing_address_1']['placeholder'] = 'থানা: পশ্চিম মিরপুর, জেলা: ঢাকা';
 	//$fields['billing']['billing_address_1']['placeholder'] = 'ঈদের ৬–৭ দিনের পর ডেলিভারি করা হবে। সঠিক ঠিকানা লিখুন।';
 	$fields['billing']['billing_address_1']['priority']    = 30;
 
