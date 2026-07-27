@@ -476,7 +476,7 @@ add_filter('woocommerce_is_checkout', function ($is_checkout) {
 	return true;
 });
 
-add_action('woocommerce_before_thankyou', 'thankyou_video_with_sound_button', 5);
+//add_action('woocommerce_before_thankyou', 'thankyou_video_with_sound_button', 5);
 function thankyou_video_with_sound_button($order_id)
 {
 ?>
