@@ -19,32 +19,44 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
 <main class="min-h-screen bg-[#121110] text-[#f7f0df] font-sans selection:bg-[#d7a93b] selection:text-[#15110a]">
     <nav class="fixed inset-x-0 top-0 z-50 border-b border-[#d7a93b]/20 bg-[#121110]/90 backdrop-blur-xl">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-            <a href="#top" class="text-base font-black uppercase tracking-[0.18em] text-[#f0c75b] sm:text-lg">Black Honey</a>
+            <a href="#top" class="text-base font-black uppercase tracking-[0.18em] text-[#f0c75b] sm:text-lg">Black
+                Honey</a>
             <div class="hidden items-center gap-7 text-sm font-semibold text-[#d9cfb8] md:flex">
                 <a class="transition hover:text-[#f0c75b]" href="#benefits">উপকারিতা</a>
                 <a class="transition hover:text-[#f0c75b]" href="#details">কোয়ালিটি</a>
                 <a class="transition hover:text-[#f0c75b]" href="#reviews">রিভিউ</a>
                 <a class="transition hover:text-[#f0c75b]" href="#faq">প্রশ্ন উত্তর</a>
             </div>
-            <a href="tel:01842491741" class="rounded-full border border-[#d7a93b]/40 px-4 py-2 text-sm font-bold text-[#f0c75b] transition hover:bg-[#d7a93b] hover:text-[#15110a]">01842491741</a>
+            <a href="tel:01842491741"
+                class="rounded-full border border-[#d7a93b]/40 px-4 py-2 text-sm font-bold text-[#f0c75b] transition hover:bg-[#d7a93b] hover:text-[#15110a]">01842491741</a>
         </div>
     </nav>
 
     <section id="top" class="relative flex min-h-screen items-center overflow-hidden pt-20">
         <div class="absolute inset-0 z-0">
-            <img class="h-full w-full object-cover opacity-60" src="<?php echo esc_url($cover_image); ?>" alt="Korean Ginseng Black Honey cinematic product shot">
+            <img class="h-full w-full object-cover opacity-60" src="<?php echo esc_url($cover_image); ?>"
+                alt="Korean Ginseng Black Honey cinematic product shot">
             <div class="absolute inset-0 bg-gradient-to-t from-[#121110] via-transparent to-[#121110]/50"></div>
-            <div class="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,17,16,0.94)_0%,rgba(18,17,16,0.74)_42%,rgba(18,17,16,0.24)_100%)]"></div>
+            <div
+                class="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,17,16,0.94)_0%,rgba(18,17,16,0.74)_42%,rgba(18,17,16,0.24)_100%)]">
+            </div>
         </div>
 
 
         <div class="relative z-10 mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
             <div class="space-y-6">
-                <span class="inline-block rounded-full border border-[#d7a93b]/30 bg-[#d7a93b]/10 px-4 py-1 text-xs font-black uppercase tracking-[0.22em] text-[#f0c75b] backdrop-blur-sm">Premium Health Solution</span>
-                <h1 class="max-w-3xl text-4xl font-black leading-tight text-[#f0c75b] drop-shadow-[0_0_18px_rgba(215,169,59,0.28)] sm:text-5xl lg:text-7xl">প্রতিদিনের শক্তির জন্য প্রিমিয়াম ব্ল্যাক হানি</h1>
-                <p class="max-w-xl text-lg leading-8 text-[#d9cfb8]">কোরিয়ান জিনসেং ও রিচ ব্ল্যাক হানির প্রিমিয়াম ব্লেন্ড। ব্যস্ত জীবন, ক্লান্তি আর দৈনন্দিন পারফর্মেন্সের জন্য তৈরি একটি শক্তিশালী herbal সাপোর্ট।</p>
+                <span
+                    class="inline-block rounded-full border border-[#d7a93b]/30 bg-[#d7a93b]/10 px-4 py-1 text-xs font-black uppercase tracking-[0.22em] text-[#f0c75b] backdrop-blur-sm">Premium
+                    Health Solution</span>
+                <h1
+                    class="max-w-3xl text-4xl font-black leading-tight text-[#f0c75b] drop-shadow-[0_0_18px_rgba(215,169,59,0.28)] sm:text-5xl lg:text-7xl">
+                    প্রতিদিনের শক্তির জন্য প্রিমিয়াম ব্ল্যাক হানি</h1>
+                <p class="max-w-xl text-lg leading-8 text-[#d9cfb8]">কোরিয়ান জিনসেং ও রিচ ব্ল্যাক হানির প্রিমিয়াম
+                    ব্লেন্ড। ব্যস্ত জীবন, ক্লান্তি আর দৈনন্দিন পারফর্মেন্সের জন্য তৈরি একটি শক্তিশালী herbal সাপোর্ট।
+                </p>
                 <div class="pt-4">
-                    <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
+                    <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95"
+                        href="#order">Order Now</a>
                 </div>
             </div>
         </div>
@@ -57,36 +69,51 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
         </div>
 
         <div class="grid gap-6 md:grid-cols-3">
-            <div class="border border-[#d7a93b]/15 bg-[#1e1e1e] p-8 text-center shadow-xl transition hover:-translate-y-1 hover:border-[#d7a93b]/40">
-                <div class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#d7a93b]/10 text-3xl text-[#f0c75b]">⚡</div>
+            <div
+                class="border border-[#d7a93b]/15 bg-[#1e1e1e] p-8 text-center shadow-xl transition hover:-translate-y-1 hover:border-[#d7a93b]/40">
+                <div
+                    class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#d7a93b]/10 text-3xl text-[#f0c75b]">
+                    ⚡</div>
                 <h3 class="mb-4 text-2xl font-black text-[#f7f0df]">Deep, Lasting Energy</h3>
-                <p class="leading-7 text-[#d0c5af]">দিনভর ফ্রেশ, অ্যাকティブ ও আত্মবিশ্বাসী থাকতে প্রিমিয়াম হারবাল এনার্জি সাপোর্ট।</p>
+                <p class="leading-7 text-[#d0c5af]">দিনভর ফ্রেশ, অ্যাকティブ ও আত্মবিশ্বাসী থাকতে প্রিমিয়াম হারবাল এনার্জি
+                    সাপোর্ট।</p>
             </div>
-            <div class="border border-[#d7a93b]/15 bg-[#1e1e1e] p-8 text-center shadow-xl transition hover:-translate-y-1 hover:border-[#d7a93b]/40">
-                <div class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#d7a93b]/10 text-3xl text-[#f0c75b]">◆</div>
+            <div
+                class="border border-[#d7a93b]/15 bg-[#1e1e1e] p-8 text-center shadow-xl transition hover:-translate-y-1 hover:border-[#d7a93b]/40">
+                <div
+                    class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#d7a93b]/10 text-3xl text-[#f0c75b]">
+                    ◆</div>
                 <h3 class="mb-4 text-2xl font-black text-[#f7f0df]">Rich Black Honey</h3>
-                <p class="leading-7 text-[#d0c5af]">রিচ ব্ল্যাক হানি ও কোরিয়ান জিনসেংয়ের কম্বিনেশন, স্বাদে প্রিমিয়াম এবং ব্যবহারে সহজ।</p>
+                <p class="leading-7 text-[#d0c5af]">রিচ ব্ল্যাক হানি ও কোরিয়ান জিনসেংয়ের কম্বিনেশন, স্বাদে প্রিমিয়াম এবং
+                    ব্যবহারে সহজ।</p>
             </div>
-            <div class="border border-[#d7a93b]/15 bg-[#1e1e1e] p-8 text-center shadow-xl transition hover:-translate-y-1 hover:border-[#d7a93b]/40">
-                <div class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#d7a93b]/10 text-3xl text-[#f0c75b]">✓</div>
+            <div
+                class="border border-[#d7a93b]/15 bg-[#1e1e1e] p-8 text-center shadow-xl transition hover:-translate-y-1 hover:border-[#d7a93b]/40">
+                <div
+                    class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#d7a93b]/10 text-3xl text-[#f0c75b]">
+                    ✓</div>
                 <h3 class="mb-4 text-2xl font-black text-[#f7f0df]">Cash on Delivery</h3>
                 <p class="leading-7 text-[#d0c5af]">অগ্রিম টাকা লাগবে না। প্রোডাক্ট হাতে পেয়ে তারপর পেমেন্ট করুন।</p>
             </div>
         </div>
         <div class="pt-4 text-center">
-            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
+            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95"
+                href="#order">Order Now</a>
         </div>
     </section>
 
     <section id="details" class="bg-[#0e0e0e] py-16 lg:py-24">
         <div class="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
             <div class="relative">
-                <img class="relative z-10 w-full border border-[#d7a93b]/15 object-cover shadow-2xl" src="<?php echo esc_url($poster_one); ?>" alt="Korean Ginseng Black Honey product details">
+                <img class="relative z-10 w-full border border-[#d7a93b]/15 object-cover shadow-2xl"
+                    src="<?php echo esc_url($poster_one); ?>" alt="Korean Ginseng Black Honey product details">
                 <div class="absolute -left-8 -top-8 h-40 w-40 rounded-full bg-[#d7a93b]/10 blur-3xl"></div>
             </div>
             <div class="space-y-6">
-                <h2 class="text-3xl font-black leading-tight text-[#f0c75b] sm:text-4xl">The “One Stick a Day” Ritual</h2>
-                <p class="text-lg leading-8 text-[#d0c5af]">প্রতিটি স্টিক প্যাক অন-দ্য-গো ব্যবহারের জন্য তৈরি। নির্দিষ্ট পরিমাণ ব্ল্যাক হানি ও কোরিয়ান জিনসেংয়ের ব্লেন্ড আপনার দৈনন্দিন রুটিনে সহজে যুক্ত হয়।</p>
+                <h2 class="text-3xl font-black leading-tight text-[#f0c75b] sm:text-4xl">The “One Stick a Day” Ritual
+                </h2>
+                <p class="text-lg leading-8 text-[#d0c5af]">প্রতিটি স্টিক প্যাক অন-দ্য-গো ব্যবহারের জন্য তৈরি। নির্দিষ্ট
+                    পরিমাণ ব্ল্যাক হানি ও কোরিয়ান জিনসেংয়ের ব্লেন্ড আপনার দৈনন্দিন রুটিনে সহজে যুক্ত হয়।</p>
                 <ul class="space-y-4">
                     <li class="flex items-center gap-4">
                         <span class="text-2xl text-[#f0c75b]">✓</span>
@@ -115,7 +142,9 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                         <div class="text-sm font-semibold uppercase tracking-[0.18em] text-[#d0c5af]">Available</div>
                     </div>
                 </div>
-                <a href="#order" class="inline-flex rounded-full bg-[#d7a93b] px-8 py-4 font-black text-[#15110a] transition hover:bg-[#f0c75b]">অর্ডার করতে চাই</a>
+                <a href="#order"
+                    class="inline-flex rounded-full bg-[#d7a93b] px-8 py-4 font-black text-[#15110a] transition hover:bg-[#f0c75b]">অর্ডার
+                    করতে চাই</a>
             </div>
         </div>
     </section>
@@ -128,28 +157,35 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
         <div class="grid gap-6 md:grid-cols-2">
             <div class="border border-[#d7a93b]/15 bg-[#1e1e1e] p-8 shadow-xl">
                 <div class="mb-8 flex aspect-[4/5] items-center justify-center border border-white/10 bg-white/5 p-5">
-                    <img class="h-full w-full object-contain" src="<?php echo esc_url($poster_two); ?>" alt="Korean Ginseng Black Honey quality poster">
+                    <img class="h-full w-full object-contain" src="<?php echo esc_url($poster_two); ?>"
+                        alt="Korean Ginseng Black Honey quality poster">
                 </div>
                 <h3 class="mb-2 text-xl font-black text-[#f0c75b]">Premium Pack Details</h3>
-                <p class="text-sm leading-6 text-[#d0c5af]">স্টিক প্যাক, কোরিয়ান জিনসেং ব্লেন্ড এবং ব্ল্যাক হানি ফর্মুলার তথ্য পরিষ্কারভাবে দেখতে পারবেন।</p>
+                <p class="text-sm leading-6 text-[#d0c5af]">স্টিক প্যাক, কোরিয়ান জিনসেং ব্লেন্ড এবং ব্ল্যাক হানি
+                    ফর্মুলার তথ্য পরিষ্কারভাবে দেখতে পারবেন।</p>
             </div>
             <div class="border border-[#d7a93b]/15 bg-[#1e1e1e] p-8 shadow-xl">
                 <div class="mb-8 flex aspect-[4/5] items-center justify-center border border-white/10 bg-white/5 p-5">
-                    <img class="h-full w-full object-contain" src="<?php echo esc_url($poster_four); ?>" alt="Korean Ginseng Black Honey product packaging">
+                    <img class="h-full w-full object-contain" src="<?php echo esc_url($poster_four); ?>"
+                        alt="Korean Ginseng Black Honey product packaging">
                 </div>
                 <h3 class="mb-2 text-xl font-black text-[#f0c75b]">Authentic Product View</h3>
-                <p class="text-sm leading-6 text-[#d0c5af]">অর্ডারের আগে প্রোডাক্ট প্যাকেজিং, বক্স ও স্টিক ভিজ্যুয়াল দেখে সিদ্ধান্ত নিন।</p>
+                <p class="text-sm leading-6 text-[#d0c5af]">অর্ডারের আগে প্রোডাক্ট প্যাকেজিং, বক্স ও স্টিক ভিজ্যুয়াল
+                    দেখে সিদ্ধান্ত নিন।</p>
             </div>
         </div>
         <div class="pt-4 text-center">
-            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
+            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95"
+                href="#order">Order Now</a>
         </div>
     </section>
 
     <!-- Testimonials Section -->
     <section class="bg-[#171512] py-16 lg:py-24 overflow-hidden" id="reviews">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
-            <h2 class="text-3xl font-black uppercase text-[#f0c75b] sm:text-4xl text-center mb-16 tracking-wide font-['Playfair_Display']">Happy Customers</h2>
+            <h2
+                class="text-3xl font-black uppercase text-[#f0c75b] sm:text-4xl text-center mb-16 tracking-wide font-['Playfair_Display']">
+                Happy Customers</h2>
             <div class="relative group">
                 <!-- Navigation Buttons -->
                 <button
@@ -168,7 +204,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                     <!-- Testimonial 1 -->
                     <div
                         class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
-                        <div class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
+                        <div
+                            class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
                             <div>
                                 <div class="flex gap-1 text-[#f0c75b] mb-4">
                                     <span class="material-symbols-outlined"
@@ -182,15 +219,21 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"প্রতিদিন সকালে একটি করে স্টিক খাওয়া শুরু করার পর থেকে আমার কর্মক্ষমতা বা প্রোডাক্টিভিটি বহুগুণ বেড়ে গেছে। দুপুরে এখন আর কোনো ক্লান্তি বা অলসতা আসে না!"</p>
+                                <p
+                                    class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">
+                                    "প্রতিদিন রাতে একটি করে স্টিক খাওয়া শুরু করার পর থেকে আমার কর্মক্ষমতা বা
+                                    প্রোডাক্টিভিটি বহুগুণ বেড়ে গেছে। রাতে এখন আর কোনো ক্লান্তি বা অলসতা আসে না!"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
                                     class="w-12 h-12 rounded-full bg-[#d7a93b]/20 flex items-center justify-center text-[#f0c75b] font-bold text-sm font-['Work_Sans']">
                                     RH</div>
                                 <div>
-                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">Rahim H.</div>
-                                    <div class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">Dhaka, Bangladesh</div>
+                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">
+                                        Rahim H.</div>
+                                    <div
+                                        class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">
+                                        Dhaka, Bangladesh</div>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +241,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                     <!-- Testimonial 2 -->
                     <div
                         class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
-                        <div class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
+                        <div
+                            class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
                             <div>
                                 <div class="flex gap-1 text-[#f0c75b] mb-4">
                                     <span class="material-symbols-outlined"
@@ -212,15 +256,21 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"ব্ল্যাক হানিবাল বা কালো মধুর স্বাদ সত্যিই অসাধারণ। এটি জিনসেং-এর তেতো ভাবটা একদম নিখুঁতভাবে দূর করে এবং একই সাথে একটি প্রিমিয়াম অনুভূতি দেয়।"</p>
+                                <p
+                                    class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">
+                                    "ব্ল্যাক হানিবাল বা কালো মধুর স্বাদ সত্যিই অসাধারণ। এটি জিনসেং-এর তেতো ভাবটা একদম
+                                    নিখুঁতভাবে দূর করে এবং একই সাথে একটি প্রিমিয়াম অনুভূতি দেয়।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
                                     class="w-12 h-12 rounded-full bg-[#d7a93b]/20 flex items-center justify-center text-[#f0c75b] font-bold text-sm font-['Work_Sans']">
                                     IK</div>
                                 <div>
-                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">Imran K.</div>
-                                    <div class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">Chittagong, BD</div>
+                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">
+                                        Imran K.</div>
+                                    <div
+                                        class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">
+                                        Chittagong, BD</div>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +278,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                     <!-- Testimonial 3 -->
                     <div
                         class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
-                        <div class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
+                        <div
+                            class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
                             <div>
                                 <div class="flex gap-1 text-[#f0c75b] mb-4">
                                     <span class="material-symbols-outlined"
@@ -242,15 +293,21 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"খুব দ্রুত ডেলিভারি পেয়েছি এবং কোয়ালিটিও অসাধারণ। এর প্রথম ড্রপ বা ফোঁটা থেকেই বোঝা যায় যে এটি একদম খাঁটি কোরিয়ান জিনসেং।"</p>
+                                <p
+                                    class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">
+                                    "খুব দ্রুত ডেলিভারি পেয়েছি এবং কোয়ালিটিও অসাধারণ। এর প্রথম ড্রপ বা ফোঁটা থেকেই বোঝা
+                                    যায় যে এটি একদম খাঁটি কোরিয়ান জিনসেং।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
                                     class="w-12 h-12 rounded-full bg-[#d7a93b]/20 flex items-center justify-center text-[#f0c75b] font-bold text-sm font-['Work_Sans']">
                                     HM</div>
                                 <div>
-                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">Hasan M.</div>
-                                    <div class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">Sylhet, BD</div>
+                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">
+                                        Hasan M.</div>
+                                    <div
+                                        class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">
+                                        Sylhet, BD</div>
                                 </div>
                             </div>
                         </div>
@@ -258,7 +315,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                     <!-- Testimonial 4 -->
                     <div
                         class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
-                        <div class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
+                        <div
+                            class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
                             <div>
                                 <div class="flex gap-1 text-[#f0c75b] mb-4">
                                     <span class="material-symbols-outlined"
@@ -272,15 +330,21 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"আমি প্রতি মাসে এটি নিজে খাই। এখন নিজেকে অনেক বেশি সচল ও এনার্জেটিক অনুভব করি এবং আমার রোগ প্রতিরোধ ক্ষমতাও আগের চেয়ে শক্তিশালী মনে হয়।"</p>
+                                <p
+                                    class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">
+                                    "আমি প্রতি মাসে এটি নিজে খাই। এখন নিজেকে অনেক বেশি সচল ও এনার্জেটিক অনুভব করি এবং
+                                    আমার রোগ প্রতিরোধ ক্ষমতাও আগের চেয়ে শক্তিশালী মনে হয়।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
                                     class="w-12 h-12 rounded-full bg-[#d7a93b]/20 flex items-center justify-center text-[#f0c75b] font-bold text-sm font-['Work_Sans']">
                                     SA</div>
                                 <div>
-                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">Sara A.</div>
-                                    <div class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">Uttara, Dhaka</div>
+                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">
+                                        Sara A.</div>
+                                    <div
+                                        class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">
+                                        Uttara, Dhaka</div>
                                 </div>
                             </div>
                         </div>
@@ -288,7 +352,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                     <!-- Testimonial 5 -->
                     <div
                         class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
-                        <div class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
+                        <div
+                            class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
                             <div>
                                 <div class="flex gap-1 text-[#f0c75b] mb-4">
                                     <span class="material-symbols-outlined"
@@ -302,15 +367,21 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"অফিসের ব্যস্ত লাইফস্টাইলের জন্য এই রেডি-টু-ইউজ স্টিকগুলো অত্যন্ত উপযোগী। স্বাস্থ্য সুরক্ষায় এটি সত্যিই একটি প্রিমিয়াম পণ্য।"</p>
+                                <p
+                                    class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">
+                                    "অফিসের ব্যস্ত লাইফস্টাইলের জন্য এই রেডি-টু-ইউজ স্টিকগুলো অত্যন্ত উপযোগী। স্বাস্থ্য
+                                    সুরক্ষায় এটি সত্যিই একটি প্রিমিয়াম পণ্য।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
                                     class="w-12 h-12 rounded-full bg-[#d7a93b]/20 flex items-center justify-center text-[#f0c75b] font-bold text-sm font-['Work_Sans']">
                                     TA</div>
                                 <div>
-                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">Tanvir A.</div>
-                                    <div class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">Gulshan, Dhaka</div>
+                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">
+                                        Tanvir A.</div>
+                                    <div
+                                        class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">
+                                        Gulshan, Dhaka</div>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +389,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                     <!-- Testimonial 6 -->
                     <div
                         class="testimonial-item flex-none w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)] snap-start">
-                        <div class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
+                        <div
+                            class="bg-[#1e1e1e] border border-[#d7a93b]/15 p-8 rounded-2xl h-full flex flex-col justify-between transition-all duration-300 ease-in-out hover:border-[#d7a93b]/40 hover:-translate-y-1">
                             <div>
                                 <div class="flex gap-1 text-[#f0c75b] mb-4">
                                     <span class="material-symbols-outlined"
@@ -332,15 +404,21 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
                                     <span class="material-symbols-outlined"
                                         style="font-variation-settings: 'FILL' 1;">star</span>
                                 </div>
-                                <p class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">"প্রাকৃতিক উপায়ে শরীরে এনার্জি বুস্ট করার জন্য এটি একটি অসাধারণ সমাধান। এর প্রিমিয়াম প্যাকেজিং সত্যিই নজরকাড়া।"</p>
+                                <p
+                                    class="italic text-[#cfc4ad] text-[16px] md:text-[17px] leading-[1.75] font-normal font-['Work_Sans'] mb-6 flex-grow">
+                                    "প্রাকৃতিক উপায়ে শরীরে এনার্জি বুস্ট করার জন্য এটি একটি অসাধারণ সমাধান। এর প্রিমিয়াম
+                                    প্যাকেজিং সত্যিই নজরকাড়া।"</p>
                             </div>
                             <div class="flex items-center gap-4 mt-4">
                                 <div
                                     class="w-12 h-12 rounded-full bg-[#d7a93b]/20 flex items-center justify-center text-[#f0c75b] font-bold text-sm font-['Work_Sans']">
                                     NA</div>
                                 <div>
-                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">Nabila A.</div>
-                                    <div class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">Banani, Dhaka</div>
+                                    <div class="font-bold text-[#cfc4ad] text-[15px] leading-tight font-['Work_Sans']">
+                                        Nabila A.</div>
+                                    <div
+                                        class="text-[12px] text-[#f0c75b] font-semibold tracking-wider leading-normal font-['Work_Sans'] mt-1">
+                                        Banani, Dhaka</div>
                                 </div>
                             </div>
                         </div>
@@ -353,7 +431,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
             </div>
         </div>
         <div class="pt-4 text-center">
-            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
+            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95"
+                href="#order">Order Now</a>
         </div>
     </section>
 
@@ -419,15 +498,18 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
             <div class="mt-10 divide-y divide-white/10 border border-white/10 bg-[#1d1a16]">
                 <div class="p-6">
                     <h3 class="text-lg font-black text-[#fff2bf]">ব্ল্যাক হানি কি?</h3>
-                    <p class="mt-2 leading-7 text-[#cfc4ad]">প্রাকৃতিক মধু, কোরিয়ান জিনসেং ও বাছাই করা ভেষজ উপাদানের সমন্বয়ে তৈরি প্রিমিয়াম ফর্মুলা।</p>
+                    <p class="mt-2 leading-7 text-[#cfc4ad]">প্রাকৃতিক মধু, কোরিয়ান জিনসেং ও বাছাই করা ভেষজ উপাদানের
+                        সমন্বয়ে তৈরি প্রিমিয়াম ফর্মুলা।</p>
                 </div>
                 <div class="p-6">
                     <h3 class="text-lg font-black text-[#fff2bf]">অগ্রিম টাকা দিতে হবে?</h3>
-                    <p class="mt-2 leading-7 text-[#cfc4ad]">না, ক্যাশ অন ডেলিভারি। প্রোডাক্ট হাতে পেয়ে পেমেন্ট করবেন।</p>
+                    <p class="mt-2 leading-7 text-[#cfc4ad]">না, ক্যাশ অন ডেলিভারি। প্রোডাক্ট হাতে পেয়ে পেমেন্ট করবেন।
+                    </p>
                 </div>
                 <div class="p-6">
                     <h3 class="text-lg font-black text-[#fff2bf]">কিভাবে সেবন করতে হবে?</h3>
-                    <p class="mt-2 leading-7 text-[#cfc4ad]">রাতে ঘুমানোর আগে অথবা কাজের ১ ঘন্টা আগে গরম দুধ বা গরম পানির সাথে সেবন করুন।</p>
+                    <p class="mt-2 leading-7 text-[#cfc4ad]">রাতে ঘুমানোর আগে অথবা কাজের ১ ঘন্টা আগে গরম দুধ বা গরম
+                        পানির সাথে সেবন করুন।</p>
                 </div>
                 <div class="p-6">
                     <h3 class="text-lg font-black text-[#fff2bf]">কত দিনের কোর্স?</h3>
@@ -436,7 +518,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
             </div>
         </div>
         <div class="pt-4 text-center">
-            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95" href="#order">Order Now</a>
+            <a class="inline-block rounded-full bg-[#db8000] px-10 py-4 text-xl font-black uppercase tracking-[0.12em] text-black shadow-[inset_0_2px_4px_rgba(255,255,255,0.28),0_18px_45px_rgba(219,128,0,0.28)] transition-all hover:scale-105 hover:bg-[#f0c75b] active:scale-95"
+                href="#order">Order Now</a>
         </div>
     </section>
 
@@ -450,7 +533,7 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
 <?php get_footer(); ?>
 
 <script>
-    (function() {
+    (function () {
         const carousel = document.getElementById('testimonial-carousel');
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
@@ -461,14 +544,14 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
             return Math.max(280, carousel.clientWidth * 0.9);
         }
 
-        prevBtn.addEventListener('click', function() {
+        prevBtn.addEventListener('click', function () {
             carousel.scrollBy({
                 left: -scrollAmount(),
                 behavior: 'smooth'
             });
         });
 
-        nextBtn.addEventListener('click', function() {
+        nextBtn.addEventListener('click', function () {
             carousel.scrollBy({
                 left: scrollAmount(),
                 behavior: 'smooth'
