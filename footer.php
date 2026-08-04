@@ -20,7 +20,7 @@
 			<p class="mt-4 text-xs text-[#8f846d]">&copy; <?php echo esc_html(date('Y')); ?> Black Honey. সর্বস্বত্ব সংরক্ষিত।</p>
 		</div>
 		<div class="flex flex-col items-center gap-3 md:items-end">
-			<a class="rounded-full border border-[#d7a93b]/45 px-5 py-3 text-sm font-black text-[#ffe7a3] transition hover:bg-[#d7a93b] hover:text-[#15110a]" href="tel:01811546841">কল করুন: 01811546841</a>
+			<a class="rounded-full border border-[#d7a93b]/45 px-5 py-3 text-sm font-black text-[#ffe7a3] transition hover:bg-[#d7a93b] hover:text-[#15110a]" href="tel:01842491741">কল করুন: 01842491741</a>
 			<p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#d7a93b]">Cash on delivery</p>
 		</div>
 	</div>
