@@ -4,5 +4,6 @@
     "../../../wp-admin",
     "../../plugins/woocommerce"
   ],
-  "intelephense.files.maxSize": 5000000
+  "intelephense.files.maxSize": 5000000,
+  "editor.formatOnSave": false,
 }

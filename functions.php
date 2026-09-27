@@ -154,7 +154,9 @@ function fastest_scripts()
 		wp_enqueue_style('google-fonts-playfair-work-sans', 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;600;700&display=swap', array(), null);
 		wp_enqueue_style('material-symbols-outlined', 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap', array(), null);
 		if (is_a($post, 'WP_Post') && has_shortcode($post->post_content, 'cartflow-custom')) {
-			wp_enqueue_style('fastest-checkout', get_template_directory_uri() . '/checkout.css', array('fastest-style'), _S_VERSION);
+			$checkout_css_path = get_template_directory() . '/checkout.css';
+			$checkout_css_version = file_exists($checkout_css_path) ? filemtime($checkout_css_path) : _S_VERSION;
+			wp_enqueue_style('fastest-checkout', get_template_directory_uri() . '/checkout.css', array('fastest-style'), $checkout_css_version);
 		}
 	}
 
@@ -368,6 +370,45 @@ add_action('init', function () {
 		remove_action('woocommerce_order_status_failed_to_completed', array(WC()->mailer(), 'send_transactional_email'));
 	}
 }, 0);
+/**
+ * Convert a template checkout palette into safe CSS custom properties.
+ *
+ * Usage in a page template:
+ * style="<?php echo esc_attr(fastest_checkout_palette_style($checkout_colors)); ?>"
+ */
+function fastest_checkout_palette_style($colors = [])
+{
+	$allowed_colors = [
+		'primary',
+		'primary-light',
+		'highlight',
+		'background',
+		'surface',
+		'text',
+		'muted-text',
+		'heading',
+		'input-background',
+		'input-text',
+		'placeholder',
+	];
+
+	$declarations = [];
+
+	foreach ($allowed_colors as $name) {
+		if (empty($colors[$name])) {
+			continue;
+		}
+
+		$color = sanitize_hex_color($colors[$name]);
+
+		if ($color) {
+			$declarations[] = '--checkout-' . $name . ':' . $color;
+		}
+	}
+
+	return implode(';', $declarations);
+}
+
 //cartflow custom checkout shortcode
 add_shortcode('cartflow-custom', function ($atts) {
 

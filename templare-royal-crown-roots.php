@@ -8,6 +8,20 @@
  * @package fastest_theme
  */
 get_header('custom');
+
+// Change these values when duplicating this template to recolor its checkout.
+$checkout_colors = [
+    'primary'          => '#d4af37',
+    'primary-light'    => '#f2d675',
+    'highlight'        => '#ffe99a',
+    'background'       => '#24102b',
+    'surface'          => '#591664',
+    'text'             => '#ffffff',
+    'muted-text'       => '#f4e8f7',
+    'heading'          => '#ffe99a',
+    'input-background' => '#ffffff',
+    'input-text'       => '#211025',
+];
 ?>
 
 <style>
@@ -233,7 +247,8 @@ get_header('custom');
 
 <!-- Order Form Section -->
 
-<section class="order-section" id="order">
+<section class="order-section" id="order"
+    style="<?php echo esc_attr(fastest_checkout_palette_style($checkout_colors)); ?>">
 
     <div class="container">
 

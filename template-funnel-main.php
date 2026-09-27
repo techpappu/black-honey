@@ -14,6 +14,20 @@ $cover_image = $asset_base . 'KOREAN GINSENG Black Honey cover.webp';
 $poster_one = $asset_base . 'KOREAN GINSENG Black Honey poster 1.webp';
 $poster_two = $asset_base . 'KOREAN GINSENG Black Honey poster 2.webp';
 $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
+
+// Change these values when duplicating this template to recolor its checkout.
+$checkout_colors = [
+    'primary'          => '#d7a93b',
+    'primary-light'    => '#f0c75b',
+    'highlight'        => '#ffd66b',
+    'background'       => '#0d0c0a',
+    'surface'          => '#1a1712',
+    'text'             => '#f7f0df',
+    'muted-text'       => '#efe3c8',
+    'heading'          => '#ffe7a3',
+    'input-background' => '#dfdfdd',
+    'input-text'       => '#000000',
+];
 ?>
 
 <main class="min-h-screen bg-[#121110] text-[#f7f0df] font-sans selection:bg-[#d7a93b] selection:text-[#15110a]">
@@ -523,7 +537,8 @@ $poster_four = $asset_base . 'KOREAN GINSENG Black Honey poster 4.webp';
         </div>
     </section>
 
-    <section id="order" class="bg-[#100f0d] py-16 lg:py-24">
+    <section id="order" class="bg-[#100f0d] py-16 lg:py-24"
+        style="<?php echo esc_attr(fastest_checkout_palette_style($checkout_colors)); ?>">
         <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <?php the_content(); ?>
         </div>

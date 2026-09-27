@@ -8,6 +8,20 @@
  * @package fastest_theme
  */
 get_header('custom');
+
+// Change these values when duplicating this template to recolor its checkout.
+$checkout_colors = [
+    'primary'          => '#e44708',
+    'primary-light'    => '#ff7a32',
+    'highlight'        => '#ffd166',
+    'background'       => '#171717',
+    'surface'          => '#292929',
+    'text'             => '#ffffff',
+    'muted-text'       => '#eeeeee',
+    'heading'          => '#ffffff',
+    'input-background' => '#ffffff',
+    'input-text'       => '#171717',
+];
 ?>
 
  <!-- Hero Section -->
@@ -26,7 +40,8 @@ get_header('custom');
 
   <!-- Order Form Section -->
 
-   <section class="order-section" id="order">
+   <section class="order-section" id="order"
+      style="<?php echo esc_attr(fastest_checkout_palette_style($checkout_colors)); ?>">
 
       <div class="container">
 
