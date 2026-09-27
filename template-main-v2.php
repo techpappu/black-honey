@@ -64,14 +64,10 @@ $sachet_mockups = [
     .main-v2-checkout .order-form .checkout-saving-note {
         color: #f0c75b !important;
         background: rgba(0, 0, 0, 0.70) !important;
-        backdrop-filter: blur(3px);
-        -webkit-backdrop-filter: blur(3px);
     }
 
     .main-v2-checkout .order-form .checkout-wrapper {
         background: rgba(255, 255, 255, 0.16) !important;
-        backdrop-filter: blur(2px);
-        -webkit-backdrop-filter: blur(2px);
     }
 
     .main-v2-checkout .order-form .checkout-product-selector,
@@ -100,7 +96,9 @@ $sachet_mockups = [
         -webkit-backdrop-filter: blur(3px); */
         background: transparent;
     }
-
+    .main-v2-checkout .woocommerce-billing-fields{
+        border:3px dashed #000 !important;
+    }
     .main-v2-checkout .order-form .checkout-wrapper .shop_table td,
     .main-v2-checkout .order-form .checkout-wrapper .shop_table th,
     .main-v2-checkout .order-form .checkout-wrapper .shop_table td:last-child,
@@ -138,15 +136,16 @@ $sachet_mockups = [
                 <h2 class="text-3xl font-black text-black sm:text-5xl">আপনার দৈনন্দিন রুটিনে প্রিমিয়াম ব্ল্যাক হানি</h2>
                 <p class="mx-auto mt-4 max-w-3xl text-lg font-semibold leading-relaxed">সহজে বহনযোগ্য স্টিক প্যাক—বাসা, কর্মক্ষেত্র অথবা ভ্রমণে আপনার রুটিনের সঙ্গে সহজেই মানিয়ে যায়।</p>
             </div>
-            <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="grid grid-cols-1 gap-3 sm:gap-5 lg:grid-cols-4">
                 <?php foreach ($lifestyle_images as $image) : ?>
-                    <figure class="overflow-hidden rounded-2xl bg-white shadow-lg">
-                        <img src="<?php echo esc_url($brand_assets . $image); ?>" class="aspect-[3/4] h-full w-full object-cover"
+                    <div class="text-center">
+                        <img src="<?php echo esc_url($brand_assets . $image); ?>" class="mx-auto aspect-[3/4] w-[70%] rounded-2xl object-cover shadow-lg sm:w-full"
                             alt="Korean Ginseng Black Honey lifestyle" loading="lazy">
-                    </figure>
+                        <a href="#order" class="mt-3 inline-flex items-center justify-center rounded-xl bg-black px-4 py-3 text-sm font-extrabold leading-tight text-[#d7a93b] shadow-lg transition hover:bg-[#d7a93b] hover:text-black sm:hidden">এখনই অর্ডার করুন</a>
+                    </div>
                 <?php endforeach; ?>
             </div>
-            <div class="mt-10 text-center">
+            <div class="mt-10 hidden text-center sm:block">
                 <a href="#order" class="inline-flex rounded-xl bg-black px-10 py-4 text-xl font-extrabold text-[#d7a93b] shadow-lg transition hover:bg-[#d7a93b] hover:text-black">এখনই অর্ডার করুন</a>
             </div>
         </div>
@@ -219,10 +218,10 @@ $sachet_mockups = [
             <p class="mx-auto mt-4 max-w-3xl text-center text-lg font-semibold">অর্ডারের আগে বক্স এবং প্যাকেজিংয়ের বিস্তারিত ভিজ্যুয়াল দেখে নিন।</p>
             <div class="mt-8 grid gap-5 sm:grid-cols-2">
                 <?php foreach ($box_mockups as $image) : ?>
-                    <figure class="overflow-hidden rounded-2xl bg-white shadow-lg">
-                        <img src="<?php echo esc_url($mockup_assets . $image); ?>" class="aspect-video h-full w-full object-cover"
+                    <div class="overflow-hidden rounded-2xl bg-white shadow-lg">
+                        <img src="<?php echo esc_url($mockup_assets . $image); ?>" class="aspect-video w-full object-cover"
                             alt="Korean Ginseng Black Honey packaging" loading="lazy">
-                    </figure>
+                    </div>
                 <?php endforeach; ?>
             </div>
         </div>
@@ -233,10 +232,10 @@ $sachet_mockups = [
             <h2 class="text-center text-3xl font-black sm:text-5xl">সহজে বহনযোগ্য স্টিক প্যাক</h2>
             <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 <?php foreach ($sachet_mockups as $image) : ?>
-                    <figure class="overflow-hidden rounded-2xl bg-white shadow-xl">
-                        <img src="<?php echo esc_url($mockup_assets . $image); ?>" class="aspect-video h-full w-full object-contain"
+                    <div class="overflow-hidden rounded-2xl bg-white shadow-xl">
+                        <img src="<?php echo esc_url($mockup_assets . $image); ?>" class="aspect-video w-full object-contain"
                             alt="Korean Ginseng Black Honey stick pack" loading="lazy">
-                    </figure>
+                    </div>
                 <?php endforeach; ?>
             </div>
             <div class="mt-10 text-center">
