@@ -113,7 +113,7 @@ $sachet_mockups = [
 </style>
 
 <main class="min-h-screen font-['Hind_Siliguri'] text-black"
-    style="background-image:linear-gradient(rgba(255,255,255,.91),rgba(255,255,255,.91)),url('<?php echo esc_url($brand_assets . 'image-removebg-preview.webp'); ?>');background-position:left;background-repeat:repeat-x;background-size:contain;background-attachment:fixed;">
+    style="background-image:linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.8)),url('<?php echo esc_url($brand_assets . 'image-removebg-preview.webp'); ?>');background-position:left;background-repeat:repeat-x;background-size:contain;background-attachment:fixed;">
     <header class="relative bg-black px-4 py-5 text-center text-[#d7a93b]">
         <p class="text-xl font-extrabold uppercase tracking-wide sm:text-3xl">Korean Ginseng Black Honey</p>
         <div class="absolute inset-x-0 -bottom-2 h-2 bg-[linear-gradient(135deg,#000_50%,transparent_50%),linear-gradient(225deg,#000_50%,transparent_50%)] bg-[length:16px_16px] bg-repeat-x" aria-hidden="true"></div>
