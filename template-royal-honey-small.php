@@ -56,7 +56,7 @@ $checkout_colors = [
     style="<?php echo esc_attr(fastest_checkout_palette_style($checkout_colors)); ?>">
     <div class="container">
         <?php the_content(); ?>
-        <div class="logo" style="text-align:center;">অর্ডার করতে সরাসরি কল করুন <br> <a href="tel:01842491741">01842491741</a></div>
+        <div class="logo" style="text-align:center;">অর্ডার করতে সরাসরি কল করুন <br> <a href="tel:01811546874">01811546874</a></div>
     </div>
 </section>
 <!-- Footer -->

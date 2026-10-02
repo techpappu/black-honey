@@ -32,7 +32,7 @@ $checkout_colors = [
 
 <section class="hero">
     <div class="hero-content">
-        <div class="logo"><a href="tel:01842491741">01842491741</a></div>
+        <div class="logo"><a href="tel:01811546874">01811546874</a></div>
         <a href="#order" class="cta-btn" style="background: #e44708;color: white;">অর্ডার করতে চাই</a><br><br>
         <div class="product-badge">NATURAL MIXED HONEY</div>
         <h1 class="hero-title" style="margin: 0;">ন্যাচারাল মিক্সড মধু</h1>
@@ -82,7 +82,7 @@ $checkout_colors = [
             echo '</div>';
         }
         ?>
-        <div class="logo" style="text-align:center;">অর্ডার করতে সরাসরি কল করুন <br> <a href="tel:01842491741">01842491741</a></div>
+        <div class="logo" style="text-align:center;">অর্ডার করতে সরাসরি কল করুন <br> <a href="tel:01811546874">01811546874</a></div>
     </div>
 
 </section>

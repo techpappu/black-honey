@@ -41,8 +41,8 @@ $checkout_colors = [
                 <a class="transition hover:text-[#f0c75b]" href="#reviews">রিভিউ</a>
                 <a class="transition hover:text-[#f0c75b]" href="#faq">প্রশ্ন উত্তর</a>
             </div>
-            <a href="tel:01842491741"
-                class="rounded-full border border-[#d7a93b]/40 px-4 py-2 text-sm font-bold text-[#f0c75b] transition hover:bg-[#d7a93b] hover:text-[#15110a]">01842491741</a>
+            <a href="tel:01811546874"
+                class="rounded-full border border-[#d7a93b]/40 px-4 py-2 text-sm font-bold text-[#f0c75b] transition hover:bg-[#d7a93b] hover:text-[#15110a]">01811546874</a>
         </div>
     </nav>
 
